@@ -7,7 +7,7 @@ This repo is the source code for [End-to-end Hand Mesh Recovery from a Monocular
 
 
 
-###citation
+### Citation
 If you use this code for your research, please consider citing:
 ```
 @article{zhang2019end,
