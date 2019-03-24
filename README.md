@@ -8,7 +8,7 @@ This repo is the source code for [End-to-end Hand Mesh Recovery from a Monocular
 
 
 ### Citation
-If you use this code for your research, please consider citing:
+If you use this code for your research, please cite:
 ```
 @article{zhang2019end,
   title={End-to-end Hand Mesh Recovery from a Monocular RGB Image},
