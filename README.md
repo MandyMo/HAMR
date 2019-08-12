@@ -12,7 +12,7 @@ If you use this code for your research, please cite:
 ```
 @article{zhang2019end,
   title={End-to-end Hand Mesh Recovery from a Monocular RGB Image},
-  author={Zhang, Xiong and Li, Qiang and Zhang, Wenbo and Zheng, Wen},
+  author={Zhang, Xiong and Li, Qiang and Mo, Hong and Zhang, Wenbo and Zheng, Wen},
   booktitle = {The International Conference on Computer Vision (ICCV)},
   year = {2019}
 }
