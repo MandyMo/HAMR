@@ -9,13 +9,13 @@ This repo is the source code for [End-to-end Hand Mesh Recovery from a Monocular
 
 ### marks
 We shall apologize to the reviewer of our paper when we submit it to ICCV2019.
-The following are selected review comments from reviewer1,
-The authors mistakenly insist that their Equation 3 is right. Different regressors are applied differently ([16] uses 2 different ones), but there is only 1 correct way for each. The source code of [16] (cited in the rebuttal at L032) verifies my comment, please see:
+The following are selected review comments from reviewer1.
+```The authors mistakenly insist that their Equation 3 is right. Different regressors are applied differently ([16] uses 2 different ones), but there is only 1 correct way for each. The source code of [16] (cited in the rebuttal at L032) verifies my comment, please see:
 - https://github.com/akanazawa/hmr/blob/ffc0297872779031ec9b2ab87d7e9843b3cf8c90/src/tf_smpl/batch_smpl.py#L115 (MANO joint regressor)
 - https://github.com/akanazawa/hmr/blob/ffc0297872779031ec9b2ab87d7e9843b3cf8c90/src/tf_smpl/batch_smpl.py#L152 (COCO joint regressor)
 In reality Eq3 is a non-destructive heuristic, that looks plausible and training works, therefore I am *not* attacking for rejection based on this. This does not change in the paper now. But I strongly and kindly suggest to add a comment in your source-code that this is not the optimal/suggested way, otherwise people that copy/borrow your code or follow Eq3 might be following the non-correct way. Potentially you could remove Eq3 and simply cite the paper (good idea of other reviewer).
-
-Only recently, we found that our Equation 3 is not correct.
+```
+Only recently, we found that our Equation 3 is not correct (as the reviewer 1 point out).
 
 ### Citation
 If you use this code for your research, please cite:
