@@ -8,7 +8,7 @@ This repo is the source code for [End-to-end Hand Mesh Recovery from a Monocular
 
 
 ### marks
-We shall apologize to the reviewer of our paper when we submit it to ICCV2019.
+We shall thanks to the reviewer of our paper when we submit it to ICCV2019.
 The following are selected review comments from reviewer1.
 
 
